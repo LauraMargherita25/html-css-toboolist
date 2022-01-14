@@ -9,19 +9,45 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header> 
+    <header>
         <img class=logo src="img\Logo.png" alt="Logo Boolean">
         <h1>ToBooList</h1>
     </header>
-   
+
     <main>
         <div class="conteiner">
             <div class="optionsbutton">
                 <button class="button button1">Add Task</button>
                 <button class="button button2">Add Section</button>
+            </div>
+            <div class="lists">
+                <section class="new_task">
+                        <h2 class="list_title"><span class="arrow">&#9660;</span> New Task</h2>
+                        <ul>
+                            <li><span class="check box">&#10003;</span> Newsletter</li> 
+                            <li><span class="cross box">&#10007;</span> Newsletter</li>
+                        </ul>
+                </section>
+                <section class="today">
+                    <h2><span class="arrow">&#9660;</span>Today</h2>
+                    <ul>
+                        <li><span class="check box">&#10003;</span> Newsletter</li>
+                        <li><span class="check box">&#10003;</span> Newsletter</li>
+                        <li><span class="cross box">&#10007;</span> Newsletter</li>
+                        <li><span class="check box">&#10003;</span> Newsletter</li>
+                    </ul>
+                </section>
+                <section class="Upcoming">
+                    <h2><span class="arrow">&#9660;</span>Upcoming</h2>
+                    <ul>
+                        <li><span class="cross box">&#10007;</span> Newsletter</li>
+                        <li><span class="check box">&#10003;</span> Newsletter</li>
+                        <li><span class="check box">&#10003;</span> Newsletter</li>
+                    </ul>
+                </section>
             </div>
             
         </div>
