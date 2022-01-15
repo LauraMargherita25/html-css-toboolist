@@ -5,17 +5,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* header with logo */
 header{
     background-color: rgb(255, 255, 255);
     background-size: 500px;
     padding: 20px;
 }
 
-header > .logo{
+.logo-image{
     vertical-align: middle;
 }
 
-header > h1{
+.logo-name{
     display: inline-block;
     font-family: 'Be Vietnam Pro', sans-serif;
     color: #031732;
@@ -24,7 +25,9 @@ header > h1{
     vertical-align: middle;
     line-height: 1;
 }
+/* /header with logo */
 
+/* main section */
 main{
     background-color: rgb(206, 198, 198);
     width: 100%;
@@ -39,7 +42,9 @@ main{
     background-color: white;
     border-radius: 10px;
 }
+/* /main section */
 
+/* btn secction */
 .optionsbutton{
     border-bottom: 1px solid gray;
     padding: 20px;
@@ -50,18 +55,20 @@ main{
     border-radius: 10px;
 }
 
-.button1{
+.addtask{
     background-color: rgb(97, 111, 236);
     border: none;
     color: white;
 }
 
-.button2{
+.addsection{
     background-color: white;
     color: gray;
     border: 2px solid gray;
 }
+/* /btn secction */
 
+/* lists section */
 .lists{
     width: 90%;
     height: 100%;
@@ -73,6 +80,7 @@ main{
     margin: 10px 0;
 }
 
+/* list title */
 .list_title{
     line-height: 1;
     font-family: 'Be Vietnam Pro', sans-serif;
@@ -82,13 +90,16 @@ main{
     font-size: 10px;
     vertical-align: middle;
 }
+/* /list title */
 
+/* list content */
 li{
     list-style:none;
     line-height: 2.6;
     margin: 0 15px;
 }
 
+/* sort of checkbox */
 .box{
     border-radius: 50%;
     font-size: 15px;
@@ -109,7 +120,9 @@ li{
 .task{
     padding: 0 10px;
 }
+/* /sort of checkbox */
 
+/* colored tag */
 .tag{
     border-radius: 10px;
     color: white;
@@ -140,3 +153,6 @@ li{
 .sales{
     background-color: #b0c926;
 }
+/* /colored tag */
+/* /list content */
+/* /lists section */
