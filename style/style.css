@@ -34,22 +34,22 @@ body{
 
 /* main section */
 main{
-    padding: 50px;
+    max-width: 600px;
+    margin: 3em auto;
 }
 
 .conteiner{
-    width: 70%;
-    height: 1000px;
-    margin: auto;
+    padding: 1em 3em;
     background-color: white;
-    border-radius: 10px;
 }
 /* /main section */
 
 /* btn secction */
-.optionsbutton{
-    border-bottom: 1px solid gray;
-    padding: 20px;
+.btns{
+    border-bottom: 2px solid #f6f8f9;
+    line-height: 3;/*puoi usare anche il padding */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .button{
@@ -71,14 +71,12 @@ main{
 /* /btn secction */
 
 /* lists section */
-.lists{
-    width: 90%;
-    height: 100%;
-    margin: auto;
-    padding: 10px;
+.task-lists{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
-.lists > section{
+.task-lists > section{
     margin: 10px 0;
 }
 
