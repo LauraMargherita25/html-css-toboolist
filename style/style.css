@@ -24,13 +24,11 @@ body{
 }
 
 .logo-name{
-    display: inline-block;
     font-family: 'Be Vietnam Pro', sans-serif;
     color: #031732;
     vertical-align: middle;
     display: inline-block;
-    vertical-align: middle;
-    line-height: 1;
+    line-height: 1em;
 }
 /* /header with logo */
 
