@@ -78,14 +78,15 @@ main{
     border-bottom-right-radius: 5px;
 }
 
-.task-lists > section{
-    margin: 10px 0;
+ul{
+    list-style: none;
 }
 
 /* list title */
 .list_title{
     line-height: 1;
     font-family: 'Be Vietnam Pro', sans-serif;
+    vertical-align: middle;
 }
 
 .arrow{
@@ -95,7 +96,7 @@ main{
 /* /list title */
 
 /* list content */
-li{
+.item{
     list-style:none;
     line-height: 2.6;
     margin: 0 15px;
