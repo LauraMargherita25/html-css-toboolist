@@ -97,31 +97,38 @@ ul{
 
 /* list content */
 .item{
-    list-style:none;
-    line-height: 2.6;
-    margin: 0 15px;
+    line-height: 2.5em;
+    margin-left: 15px;
 }
 
-/* sort of checkbox */
-.box{
-    border-radius: 50%;
-    font-size: 15px;
+.checked::before{
+    content: "\2714";
+    padding: .2em;
+    display: inline-block;
     vertical-align: middle;
-    padding: 0 3px;
-}
-
-.check{
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 15px;
     color: seagreen;
-    border: 1px solid seagreen;
 }
 
-.cross{
-    color: red;
+.missed::before{
+    content: "\2717";
+    padding: .2em;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
     border: 1px solid red;
-}
-
-.task{
-    padding: 0 10px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 15px;
+    color: red;
 }
 /* /sort of checkbox */
 
